@@ -61,7 +61,7 @@ export default function HomePage() {
               <Briefcase className="text-slate-400 mr-3" size={20} />
               <input 
                 type="text" 
-                placeholder="Role (e.g. SDE)" 
+                placeholder="Role (e.g. Software Engineer)" 
                 className="w-full p-3 outline-none text-lg" 
                 value={role}
                 onChange={(e) => setRole(e.target.value)}

@@ -84,7 +84,7 @@ export default function SalaryFilters() {
     </button>
     
     {/* Add as many roles as you want here */}
-    {['Software Developer', 'Devops Engineer', 'Staff Engineer', 'Frontend Developer', 'Backend Developer','Principal Engineer', 'Software Engineer','Full Stack Developer','AI Engineer',].map((role) => (
+    {['Software Developer', 'Devops Engineer', 'Staff Engineer', 'Frontend Developer', 'Junior Dev','Backend Developer','Principal Engineer', 'Software Engineer','Full Stack Developer','AI Engineer',].map((role) => (
       <button
         key={role}
         onClick={() => updateParam('role', role)}
